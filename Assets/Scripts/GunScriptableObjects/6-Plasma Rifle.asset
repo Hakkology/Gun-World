@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47943c76f4c22da478b18ec1f8534f0b, type: 3}
+  m_Name: 6-Plasma Rifle
+  m_EditorClassIdentifier: 
+  GunLevel: 1
+  GunID: 6
+  Gun: {fileID: 2336555170174120158, guid: e9409ee6e00fbf54fa2275c0d23a290c, type: 3}
+  MuzzleFlash: {fileID: 100006, guid: 0892137b97a1c744fb35a312f928c6d5, type: 3}
+  Projectile: {fileID: 1000011023395326, guid: 595c031acde5d8f4584b494d2bcd68c7, type: 3}
+  WeaponName: Plasma Rifle
+  MinDamage: 1200
+  MaxDamage: 3000
+  minIdleTimer: 1
+  maxIdleTimer: 1.5
+  minReloadTime: 2.5
+  maxReloadTime: 3
+  bulletSpeed: 1500
+  MagazineSize: 10
+  Burst: 0
+  Spread: 0
+  AreaofEffect: 0

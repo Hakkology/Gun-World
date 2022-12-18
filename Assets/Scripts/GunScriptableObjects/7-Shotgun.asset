@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47943c76f4c22da478b18ec1f8534f0b, type: 3}
+  m_Name: 7-Shotgun
+  m_EditorClassIdentifier: 
+  GunLevel: 1
+  GunID: 7
+  Gun: {fileID: 5855586643228379229, guid: e3b7145d2f4986d479e31ac3110d06da, type: 3}
+  MuzzleFlash: {fileID: 100004, guid: 2d5872ecd6333914b9028cfafa7492ad, type: 3}
+  Projectile: {fileID: 1000011866055842, guid: 4f5b4dc23868ff64a9a6999a483224be, type: 3}
+  WeaponName: Heavy Shotgun
+  MinDamage: 300
+  MaxDamage: 900
+  minIdleTimer: 1.2
+  maxIdleTimer: 1.5
+  minReloadTime: 2.5
+  maxReloadTime: 3
+  bulletSpeed: 2500
+  MagazineSize: 7
+  Burst: 0
+  Spread: 1
+  AreaofEffect: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47943c76f4c22da478b18ec1f8534f0b, type: 3}
+  m_Name: 10-Plasma Launcher
+  m_EditorClassIdentifier: 
+  GunLevel: 1
+  GunID: 10
+  Gun: {fileID: 8105093614528831879, guid: 9d12e632e8a5b604fb05f4fee5b65cef, type: 3}
+  MuzzleFlash: {fileID: 100008, guid: 88b353299fe038344a5b89bc8edb0c07, type: 3}
+  Projectile: {fileID: 1000010122379484, guid: 0a6c3b4de2ab3604eb1a2d4ab2d57628, type: 3}
+  WeaponName: Plasma Launcher
+  MinDamage: 3000
+  MaxDamage: 6000
+  minIdleTimer: 0.8
+  maxIdleTimer: 1
+  minReloadTime: 0.8
+  maxReloadTime: 1
+  bulletSpeed: 1500
+  MagazineSize: 5
+  Burst: 1
+  Spread: 0
+  AreaofEffect: 1

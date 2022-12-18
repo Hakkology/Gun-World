@@ -1,0 +1,1342 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8584637404263532814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8584637404263532812}
+  - component: {fileID: 8584637404263532813}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8584637404263532812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8584637404263532814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.3776174, y: -33.696915, z: 84.629745}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8584637404028560491}
+  - {fileID: 8584637403071852092}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8584637404263532813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8584637404263532814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70dfa3ec1d3a55479f1f528afe7271b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DollarCounter: 0
+  GoldCounter: 0
+  Slots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  BuyButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  BoxSections:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  BuyValueTexts:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Dollars: {fileID: 0}
+  Gold: {fileID: 0}
+--- !u!1001 &3668711861485029377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8584637404263532812}
+    m_Modifications:
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: Game_ManagerScript
+      value: 
+      objectReference: {fileID: 8584637404263532813}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: ProgressBars.Array.data[11]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxCounterTextList.Array.data[11]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[0].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[0].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[0].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[0].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[0].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[1].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[1].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[1].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[1].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[1].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[2].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[2].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[2].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[2].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[2].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[3].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[3].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[3].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[3].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[3].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[4].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[4].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[4].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[4].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[4].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[5].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[5].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[5].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[5].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[5].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[6].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[6].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[6].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[6].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[6].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[7].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[7].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[7].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[7].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[7].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[8].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[8].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[8].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[8].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[8].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[9].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[9].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[9].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[9].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[9].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[10].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[10].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[10].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[10].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[10].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[11].EachBoxLocation.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[11].EachBoxLocation.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[11].EachBoxLocation.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[11].EachBoxLocation.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440299, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: BoxesPerSlot.EachSlotLocation.Array.data[11].EachBoxLocation.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5029148852162440301, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+        type: 3}
+      propertyPath: m_Name
+      value: BoxManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 75b5c89eceb1ccc4bae1bb6470080087, type: 3}
+--- !u!4 &8584637404028560491 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5029148852162440298, guid: 75b5c89eceb1ccc4bae1bb6470080087,
+    type: 3}
+  m_PrefabInstance: {fileID: 3668711861485029377}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6906092235966439308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8584637404263532812}
+    m_Modifications:
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795377, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: m_Name
+      value: GunManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: Game_ManagerScript
+      value: 
+      objectReference: {fileID: 8584637404263532813}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[0].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[9]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[1].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[2].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[3].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[4].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[5].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[6].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[7].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[8].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[9].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[10].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951437137699795383, guid: bb22d962de6753947bcb4f3277461d81,
+        type: 3}
+      propertyPath: AllGuns.Array.data[11].EachGunperSlot.Array.data[10]
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb22d962de6753947bcb4f3277461d81, type: 3}
+--- !u!4 &8584637403071852092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2951437137699795376, guid: bb22d962de6753947bcb4f3277461d81,
+    type: 3}
+  m_PrefabInstance: {fileID: 6906092235966439308}
+  m_PrefabAsset: {fileID: 0}

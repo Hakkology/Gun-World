@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47943c76f4c22da478b18ec1f8534f0b, type: 3}
+  m_Name: 1-Pistol
+  m_EditorClassIdentifier: 
+  GunLevel: 1
+  GunID: 1
+  Gun: {fileID: 2738520558268228719, guid: f112b0272ec729145bab97586326d087, type: 3}
+  MuzzleFlash: {fileID: 100004, guid: 924b3f4a79f2f9b4b8d2c865eea56225, type: 3}
+  Projectile: {fileID: 1000011023395326, guid: 595c031acde5d8f4584b494d2bcd68c7, type: 3}
+  WeaponName: Pistol
+  MinDamage: 4.5
+  MaxDamage: 10.5
+  minIdleTimer: 0.5
+  maxIdleTimer: 0.6
+  minReloadTime: 0.8
+  maxReloadTime: 1
+  bulletSpeed: 1000
+  MagazineSize: 12
+  Burst: 0
+  Spread: 0
+  AreaofEffect: 0

@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f9e7d15d744e8f84f971403bece673f5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - woodenBoxPrefab: {fileID: 4899249756589297889, guid: 077729dd2932a00418a1e762f5e561f2,
+      type: 3}
+  - woodensteelBoxPrefab: {fileID: 4899249756589297889, guid: 7cdcda7802423e049bffeadcfe709484,
+      type: 3}
+  - steelBoxPrefab: {fileID: 4899249756589297889, guid: 878c0574b9eb79b42b750416182e7df3,
+      type: 3}
+  - titaniumsteelBoxPrefab: {fileID: 4899249756589297889, guid: 1b70a4c42d6258443aed2290c841b676,
+      type: 3}
+  - titaniumBoxPrefab: {fileID: 4899249756589297889, guid: 486287f28f1204f4a986d7b97448fd3d,
+      type: 3}
+  - _progressBar: {instanceID: 0}
+  - _boxCount: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

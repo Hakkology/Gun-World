@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47943c76f4c22da478b18ec1f8534f0b, type: 3}
+  m_Name: 3-Machine Gun
+  m_EditorClassIdentifier: 
+  GunLevel: 1
+  GunID: 3
+  Gun: {fileID: 954277450596161486, guid: 8d64306740fc6144186078124ad011a4, type: 3}
+  MuzzleFlash: {fileID: 100008, guid: ee113770ce62584409b6833794a643b7, type: 3}
+  Projectile: {fileID: 1000012327391772, guid: f2afc71dcde4d9c4490081643dd22ea1, type: 3}
+  WeaponName: Machine Gun
+  MinDamage: 10
+  MaxDamage: 25
+  minIdleTimer: 0.15
+  maxIdleTimer: 0.2
+  minReloadTime: 1.2
+  maxReloadTime: 1.5
+  bulletSpeed: 2000
+  MagazineSize: 30
+  Burst: 0
+  Spread: 0
+  AreaofEffect: 0
